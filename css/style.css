@@ -1,0 +1,108 @@
+/* Section IDs */
+#navbar {
+  background-color: #c8d192;
+}
+
+#hero {
+  background-color: #e0e5d8;
+}
+
+#career {
+  background-color: #ac956b;
+}
+
+#skills {
+  background-color: #e0e5d8;
+}
+
+#footer {
+  background-color: #c8d192;
+}
+
+/* Name link in the navbar */
+#nav-name {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Text in Navbar/Header */
+.link-body-emphasis {
+  color: #5e3e32;
+}
+
+.nav-link {
+  color: #5e3e32;
+  font-family: "Noto Sans Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Override link hover color */
+a:hover {
+  color: #66654b !important;
+}
+
+/* Control the formatting of the carousel items */
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  min-height: 300px;
+}
+
+.carousel-inner img {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10%;
+}
+
+.carousel .carousel-indicators button {
+  background-color: #e7b38c;
+}
+
+.carousel .carousel-indicators button.active {
+  background-color: #5e3e32;
+}
+
+/* Color of border-bottom, currently in footer  */
+.border-bottom {
+  color: #e0e5d8;
+}
+
+svg {
+  color: #5e3e32;
+}
+
+/* Standard Text Styling */
+h1 {
+  color: #5e3e32;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2 {
+  color: #5e3e32;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+h3 {
+  color: #5e3e32;
+  font-family: "Noto Sans Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  color: #5e3e32;
+  font-family: "Noto Sans Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
