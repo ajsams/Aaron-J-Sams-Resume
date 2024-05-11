@@ -1,0 +1,29 @@
+import React from "react";
+import skillsContent from "../../skillsContent";
+import SkillsCard from "../SkillsCard/SkillsCard";
+import "../Homepage/Homepage.css";
+import "./Skills.css";
+
+const Skills = () => {
+  return (
+    <section id="skills">
+      <div className="skills-container">
+        <div className="skills-header-text">
+          <h2>My Skills</h2>
+        </div>
+        <div className="skills-card-container">
+          {skillsContent.map((skillsEntry) => (
+            <SkillsCard
+              key={skillsEntry.key}
+              pathObjects={skillsEntry.pathObjects}
+              title={skillsEntry.title}
+              caption={skillsEntry.caption}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;

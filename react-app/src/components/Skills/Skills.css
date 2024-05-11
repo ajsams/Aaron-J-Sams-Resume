@@ -1,0 +1,29 @@
+#skills {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.skills-container {
+  background-color: #dddddd;
+  width: 100%;
+}
+
+.skills-header-text {
+  color: #06113c;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.skills-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+}
