@@ -1,5 +1,5 @@
 import React from "react";
-import "../Homepage/Homepage.css";
+import "../../pages/Homepage/Homepage.css";
 import "./SkillsCard.css";
 
 const Skills = (props) => {

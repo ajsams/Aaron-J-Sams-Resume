@@ -1,7 +1,7 @@
 import React from "react";
 import skillsContent from "../../skillsContent";
 import SkillsCard from "../SkillsCard/SkillsCard";
-import "../Homepage/Homepage.css";
+import "../../pages/Homepage/Homepage.css";
 import "./Skills.css";
 
 const Skills = () => {

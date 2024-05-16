@@ -1,0 +1,6 @@
+[ ] - Resume components
+[ ] - Color theme component 
+[ ] - Contact, LinkedIn, Google Scholar in Footer (maybe Header...)
+[ ] - Multi-page functionality
+[ ] - Button hovering reactivity in header and footer 
+[ ] - Deploy to github pages...
