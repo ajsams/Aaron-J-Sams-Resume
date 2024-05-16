@@ -107,7 +107,7 @@ const skillsContent = [
       },
     ],
     title: "Games",
-    caption: "I make games. I believe we need to have mroe fun in our lives.",
+    caption: "I make games. I believe we need to have more fun in our lives.",
   },
 ];
 

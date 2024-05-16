@@ -23,9 +23,35 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  gap: 10px;
+  gap: 2rem;
+  padding: 0;
+}
+
+.footer-links-list {
 }
 
 .footer-copyright-container {
+  display: flex;
+  justify-content: center;
   color: #ff8c32;
+}
+
+#footer a:link {
+  color: #ff8c32;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: #ff8c32;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #ff8c32;
+  text-decoration: underline;
+}
+
+#footer a:active {
+  color: #ff8c32;
+  text-decoration: none;
 }

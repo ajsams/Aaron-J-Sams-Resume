@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const headerHeight = "4rem";
@@ -30,7 +31,8 @@ function Header() {
       <header style={{ height: headerHeight }}>
         <div className="container">
           <div className="logo">
-            <a href="https://aaronjsams.net" className="logo-link">
+            {/* <a href="https://aaronjsams.net" className="logo-link"> */}
+            <Link to="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24"
@@ -42,7 +44,8 @@ function Header() {
                 <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zM6 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 11.5 6h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a1.5 1.5 0 0 0-1.5 1.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 4.5 10h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 6 4.5z" />
               </svg>
               <span className="logo-text">Aaron J. Sams</span>
-            </a>
+            </Link>
+            {/* </a> */}
           </div>
 
           <div
@@ -53,18 +56,12 @@ function Header() {
               &#9776;
             </div>
             <ul className="nav-links-list">
-              <li className="nav-item">
-                <a href="#hero">Home</a>
-              </li>
-              <li className="nav-item">
-                <a href="#career">Career</a>
-              </li>
-              <li className="nav-item">
-                <a href="#skills">Skills</a>
-              </li>
-              <li className="nav-item">
-                <a href="./pages/resume/index.html">Resume</a>
-              </li>
+              <Link to="/">
+                <li className="nav-item">Home</li>
+              </Link>
+              <Link to="/resume">
+                <li className="nav-item">Resume</li>
+              </Link>
             </ul>
           </div>
         </div>

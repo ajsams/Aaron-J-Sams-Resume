@@ -11,8 +11,17 @@ function Footer() {
         <footer>
           <div className="footer-links-container">
             <ul className="footer-links-list">
-              <li>Link1</li>
-              <li>Link2</li>
+              <li>
+                <a href="mailto:aaronjsams@gmail.com">Contact-Me</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/aaronjsams/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://scholar.google.com/citations?hl=en&user=NiJxafUAAAAJ&view_op=list_works&authuser=2&sortby=pubdate">
+                  Google-Scholar
+                </a>
+              </li>
             </ul>
           </div>
           <div className="footer-copyright-container">

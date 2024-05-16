@@ -45,7 +45,7 @@
   gap: 10px;
 }
 
-.nav-item a {
+.nav-item {
   color: #ff8c32;
   text-decoration: none;
   font-family: "Noto Sans Mono", sans-serif;
@@ -90,4 +90,24 @@
   .nav-links-toggle {
     display: none; /* Hide the hamburger icon */
   }
+}
+
+#header a:link {
+  color: #ff8c32;
+  text-decoration: none;
+}
+
+#header a:visited {
+  color: #ff8c32;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #ff8c32;
+  text-decoration: underline;
+}
+
+#header a:active {
+  color: #ff8c32;
+  text-decoration: none;
 }
