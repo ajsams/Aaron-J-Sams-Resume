@@ -1,6 +1,6 @@
+@import "../../colors";
+
 .skills-card {
-  /* background-color: blue;
-  border-radius: 10%; */
   padding: 1.2rem;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,7 @@
 }
 
 .skills-card svg {
-  fill: #06113c;
+  fill: $light-fore;
   height: 2.5rem;
   width: auto;
 }
@@ -23,12 +23,12 @@
 }
 
 .skills-text h3 {
-  color: #06113c;
+  color: $light-fore;
   margin: 0;
 }
 
 .skills-text p {
-  color: #06113c;
+  color: $light-fore;
   margin: 0;
 }
 

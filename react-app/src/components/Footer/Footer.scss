@@ -1,3 +1,5 @@
+@import "../../colors";
+
 #footer {
   position: relative;
   width: 100%;
@@ -6,7 +8,7 @@
 }
 
 .footer-container {
-  background-color: #06113c;
+  background-color: $dark-back;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
 }
 
 .footer-links-container {
-  color: #ff8c32;
+  color: $dark-fore;
   border-bottom: 2px solid;
 }
 
@@ -33,25 +35,25 @@
 .footer-copyright-container {
   display: flex;
   justify-content: center;
-  color: #ff8c32;
+  color: $dark-fore;
 }
 
 #footer a:link {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }
 
 #footer a:visited {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }
 
 #footer a:hover {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: underline;
 }
 
 #footer a:active {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }

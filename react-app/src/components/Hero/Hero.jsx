@@ -1,7 +1,7 @@
 import React from "react";
 import { headerHeight } from "../Header/Header";
 import "../../pages/Homepage/Homepage.css";
-import "./Hero.css";
+import "./Hero.scss";
 
 const Hero = (props) => {
   const { imgSource, imgAlt, heroH1Text, heroParText } = props;

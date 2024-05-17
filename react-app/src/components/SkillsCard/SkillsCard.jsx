@@ -1,6 +1,6 @@
 import React from "react";
 import "../../pages/Homepage/Homepage.css";
-import "./SkillsCard.css";
+import "./SkillsCard.scss";
 
 const Skills = (props) => {
   const { pathObjects, title, caption } = props;

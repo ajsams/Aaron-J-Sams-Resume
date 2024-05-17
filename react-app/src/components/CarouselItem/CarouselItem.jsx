@@ -1,5 +1,5 @@
 import React from "react";
-import "./CarouselItem.css";
+import "./CarouselItem.scss";
 
 const CarouselItem = (props) => {
   const { imagePath, altText, title, caption } = props;

@@ -1,5 +1,7 @@
+@import "../../colors";
+
 #header {
-  background-color: #06113c;
+  background-color: $dark-back;
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,12 +28,12 @@
 }
 
 .logo-svg {
-  color: #ff8c32;
+  color: $dark-fore;
   margin-right: 10px;
 }
 
 .logo-text {
-  color: #ff8c32;
+  color: $dark-fore;
   font-size: 1.5rem;
   font-family: "Roboto Serif", serif;
   font-weight: 700;
@@ -46,7 +48,7 @@
 }
 
 .nav-item {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
   font-family: "Noto Sans Mono", sans-serif;
   font-optical-sizing: auto;
@@ -65,7 +67,7 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #06113c;
+    background-color: $dark-back;
     padding: 10px;
     border-radius: 5px;
   }
@@ -80,7 +82,7 @@
 
   .nav-links-toggle {
     display: block;
-    color: #ff8c32;
+    color: $dark-fore;
     font-size: 20px;
     cursor: pointer;
   }
@@ -93,21 +95,21 @@
 }
 
 #header a:link {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }
 
 #header a:visited {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }
 
 #header a:hover {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: underline;
 }
 
 #header a:active {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }

@@ -1,3 +1,5 @@
+@import "../../colors";
+
 #hero {
   position: relative;
   width: 100%;
@@ -12,7 +14,7 @@
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #dddddd;
+  background-color: $light-back;
   min-height: 40rem;
   max-height: 100vh;
   padding: 2rem;
@@ -34,11 +36,11 @@ img {
 }
 
 .hero-text h1 {
-  color: #06113c;
+  color: $light-fore;
   font-size: 2rem;
 }
 
 .hero-text p {
-  color: #06113c;
+  color: $light-fore;
   font-size: 1rem;
 }

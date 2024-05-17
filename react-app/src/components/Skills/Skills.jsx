@@ -1,8 +1,8 @@
 import React from "react";
-import skillsContent from "../../skillsContent";
+import skillsContent from "../../content/skillsContent";
 import SkillsCard from "../SkillsCard/SkillsCard";
 import "../../pages/Homepage/Homepage.css";
-import "./Skills.css";
+import "./Skills.scss";
 
 const Skills = () => {
   return (

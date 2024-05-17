@@ -1,3 +1,5 @@
+@import "../../colors";
+
 #skills {
   position: relative;
   width: 100%;
@@ -6,12 +8,12 @@
 }
 
 .skills-container {
-  background-color: #dddddd;
+  background-color: $light-back;
   width: 100%;
 }
 
 .skills-header-text {
-  color: #06113c;
+  color: $light-fore;
   display: flex;
   align-items: center;
   align-content: center;

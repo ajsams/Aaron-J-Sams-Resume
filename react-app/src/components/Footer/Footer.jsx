@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
 const date = new Date();
 let year = date.getFullYear();
@@ -11,9 +11,6 @@ function Footer() {
         <footer>
           <div className="footer-links-container">
             <ul className="footer-links-list">
-              <li>
-                <a href="mailto:aaronjsams@gmail.com">Contact-Me</a>
-              </li>
               <li>
                 <a href="https://www.linkedin.com/in/aaronjsams/">LinkedIn</a>
               </li>

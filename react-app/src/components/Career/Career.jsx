@@ -2,9 +2,9 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CarouselItem from "../CarouselItem/CarouselItem";
+import carouselContent from "../../content/carouselContent";
 import "../../pages/Homepage/Homepage.css";
-import "./Career.css";
-import carouselContent from "../../carouselContent";
+import "./Career.scss";
 
 const CareerCarousel = () => {
   return (

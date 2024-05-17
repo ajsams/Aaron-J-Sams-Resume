@@ -1,25 +1,27 @@
+@import "../../colors";
+
 .experience-section,
 .skills-section {
-  background-color: #dddddd;
-  color: #06113c;
+  background-color: $light-back !important;
+  color: $light-fore !important;
 }
 
 #resume #text-section a:link {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: underline;
 }
 
 #resume #text-section a:visited {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }
 
 #resume #text-section a:hover {
-  color: #dddddd;
+  color: $light-back;
   text-decoration: underline;
 }
 
 #resume #text-section a:active {
-  color: #ff8c32;
+  color: $dark-fore;
   text-decoration: none;
 }

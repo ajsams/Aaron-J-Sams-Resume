@@ -4,10 +4,10 @@ import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
 import TextSection from "../../components/TextSection/TextSection";
 import RoleSection from "../../components/RoleSection/RoleSection";
-import experienceContent from "../../experienceContent";
-import educationContent from "../../educationContent";
+import experienceContent from "../../content/experienceContent";
+import educationContent from "../../content/educationContent";
 import "../../index.css";
-import "./Resume.css";
+import "./Resume.scss";
 
 function Resume() {
   return (

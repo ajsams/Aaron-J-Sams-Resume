@@ -1,3 +1,5 @@
+@import "../../colors";
+
 .carousel-item {
   display: flex;
   flex-direction: column;
@@ -19,10 +21,10 @@
 }
 
 .carousel-item h3 {
-  color: #ff8c32;
+  color: $dark-fore;
 }
 
 .carousel-item p {
-  color: #ff8c32;
+  color: $dark-fore;
   font-size: 0.75rem;
 }
