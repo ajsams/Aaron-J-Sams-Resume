@@ -1,4 +1,10 @@
-# React + Vite
+# Personal website and resume built with React + Vite
+
+As a learning project, I rebuilt my personal website (previously built with just HTML/CSS) with React.
+
+Although React is largely "overkill" for such a small website, I wanted to get experience with building components and better understand how React works.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
