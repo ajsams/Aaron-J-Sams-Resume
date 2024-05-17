@@ -11,13 +11,15 @@
 
 .carousel-img-div {
   width: auto;
-  height: 20rem;
+  height: auto;
+  border-radius: 25%;
 }
 
 .carousel-img {
-  border-radius: 25%;
-  height: 100%;
-  width: 100%;
+  border-radius: inherit;
+  height: 90%;
+  width: auto;
+  object-fit: contain;
 }
 
 .carousel-item h3 {
@@ -27,4 +29,5 @@
 .carousel-item p {
   color: $dark-fore;
   font-size: 0.75rem;
+  padding-bottom: 2rem;
 }

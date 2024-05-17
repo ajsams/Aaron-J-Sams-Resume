@@ -8,14 +8,16 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  overflow-y: scroll;
-  overscroll-behavior-y: none;
-  background-color: red; /*set as red to be obvious if something is wrong}*/
+  background-color: #45526c; /*set as red to be obvious if something is wrong}*/
 }
 
-:root {
+#root {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
 }
 
 h1 {
