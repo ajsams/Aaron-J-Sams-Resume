@@ -1,0 +1,30 @@
+@import "../../colors";
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-img-div {
+  width: auto;
+  height: 20rem;
+}
+
+.carousel-img {
+  border-radius: 25%;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item h3 {
+  color: $dark-fore;
+}
+
+.carousel-item p {
+  color: $dark-fore;
+  font-size: 0.75rem;
+}

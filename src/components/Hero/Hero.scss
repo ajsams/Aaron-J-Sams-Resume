@@ -1,0 +1,46 @@
+@import "../../colors";
+
+#hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $light-back;
+  min-height: 40rem;
+  max-height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.img-container {
+  width: 25rem; /* Set image width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  max-width: 25rem;
+}
+
+.hero-text h1 {
+  color: $light-fore;
+  font-size: 2rem;
+}
+
+.hero-text p {
+  color: $light-fore;
+  font-size: 1rem;
+}

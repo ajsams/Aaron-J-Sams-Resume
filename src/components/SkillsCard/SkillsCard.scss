@@ -1,0 +1,45 @@
+@import "../../colors";
+
+.skills-card {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 1rem;
+}
+
+.skills-card svg {
+  fill: $light-fore;
+  height: 2.5rem;
+  width: auto;
+}
+
+.skills-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+  width: 25vw;
+}
+
+.skills-text h3 {
+  color: $light-fore;
+  margin: 0;
+}
+
+.skills-text p {
+  color: $light-fore;
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .skills-text {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .skills-text {
+    width: 60vw;
+  }
+}
