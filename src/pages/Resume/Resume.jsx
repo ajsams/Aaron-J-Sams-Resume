@@ -43,22 +43,27 @@ function Resume() {
             Outside of my work in data science, I am working in video game
             development and building my full-stack web development skills.
           </p>,
-          <p>I'm currently open to two types of opportunities:</p>,
+          <p>
+            I'm particularly interested in two types of opportunities at the
+            moment:
+          </p>,
           <ul>
             <li>
               Data science consulting - If you have pressing questions about
-              your customers and/or existing data that you believe can be
-              answered, but you don't have internal resources to answer those
-              questions, I can help you generate insights from your existing
-              data and help gather data from outside your organization.
+              your customers that you believe can be answered and existing data,
+              but you don't have internal resources to answer those questions, I
+              can help you generate insights from your existing data and help
+              gather and analyze data from outside your organization.
             </li>
             <li>
               Corporate video game development - My game studio is open to
               contract opportunities to develop games for your business. Games
               can serve as powerful tools for communicating your brand message,
               building loyalty, or educating both your customers and employees.
-              We are currently building proof points and are looking for early
-              partners to build our business.
+              They are an engaging and immersive alternative or supplement to
+              traditional video advertising. We are currently building proof
+              points and are looking for early partners to work with to build
+              our business.
             </li>
           </ul>,
         ]}
