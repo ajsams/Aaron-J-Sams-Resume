@@ -4,6 +4,10 @@ As a learning project, I rebuilt my personal website (previously built with just
 
 Although React is largely "overkill" for such a small website, I wanted to get experience with building components and better understand how React works.
 
+## Deploying to Github Pages
+
+I use the gh-pages node module to deploy to github pages.
+
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
