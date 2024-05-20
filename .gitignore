@@ -1,6 +1,9 @@
 # MAC IGNORES
 .DS_Store
 
+# VSCODE IGNORES
+*.code-workspace
+
 # NODE IGNORES
 # Logs
 logs
